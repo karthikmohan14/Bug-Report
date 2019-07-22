@@ -1,7 +1,6 @@
 Bug Fixing portal
 ===================
 
-===================
 
 ## 1. Home page (common) ##
     Author : Kabilan
