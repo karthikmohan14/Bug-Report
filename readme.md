@@ -1,9 +1,28 @@
-pages:
-    1. Home page (common) -- Kabilan
-    2. Profile page (User specific) -- Hari  
-    3. Q&A (Question specific) -- Hari
-    4. Signup and login (common) -- Neeraj 
-    5. FAQ page (common) -- Kabilan
-    6. Tags (common) -- Karthik
-    7. Users (common) -- Karthik
-    8. Hit me! (takes 6 random questions from the stack and the user has to answer that question) -- Neeraj
+Bug Fixing portal
+===================
+
+===================
+
+## 1. Home page (common) ##
+    Author : Kabilan
+
+## 2. Profile page (User specific) ##
+    Author : Hari
+
+## 3. Q&A (Question specific) ##
+    Author : Hari
+
+## 4. Registration and login (common) ##
+    Author : Neeraj
+
+## 5. FAQ page (common) ##
+    Author : Kabilan
+
+## 6. Tags (common) ##
+    Author : Karthik
+
+## 7. Users (common) ##
+    Author : Karthik
+
+## 8. Hit me! (Gives random questions based on users 'tag follow' so that user could answer the question if he knows) ##
+    Author : Neeraj
