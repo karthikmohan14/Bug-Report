@@ -1,4 +1,4 @@
-Bug Fixing portal
+Bug Report portal
 ===================
 
 
