@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>
+        </title>
+        <link rel="stylesheet" href="hit_me.css" />
+        <script src="hit_me.js"></scriptsrc></script>
+    </head>
+
+    <body></body>
+        <div class="wrapper">
+
+  
+  <div class="profile-card js-profile-card">
+    <div class="profile-card__img">
+      <img src="web_dev.jpeg" alt="profile card">
+    </div>
+
+    <div class="profile-card__cnt js-profile-cnt">
+      <div class="profile-card__name">Web Development</div>
+      <div class="profile-card__txt"><strong>Cannot read property 'addEventListener' of null</strong></div>
+      <div class="profile-card-loc">
+        <span class="profile-card-loc__icon">
+          <!-- <svg class="icon"><use xlink:href="#icon-location"></use></svg> -->
+        </span>
+
+        <span class="profile-card-loc__txt">
+            I have to use vanilla JavaScript for a project. I have a few functions, one of which is a button that opens a menu. It works on pages where the target id exists, but causes an error on pages where the id doesn't exist. On those pages where the function cannot find the id, I receive a "Cannot read property 'addEventListener' of null " error and none of my other functions work.
+        </span>
+      </div>
+
+
+      
+      <div class="profile-card-ctr">
+        <button class="profile-card__button button--blue js-message-btn" id="js-message-btn1">Answer</button>
+        <button class="profile-card__button button--orange">Follow</button>
+      </div>
+    </div>
+
+    <div class="profile-card-message js-message">
+      <form class="profile-card-form">
+        <div class="profile-card-form__container">
+          <textarea placeholder="Say something..."></textarea>
+        </div>
+
+        <div class="profile-card-form__bottom">
+          <button class="profile-card__button button--blue js-message-close">
+            Send
+          </button>
+
+          <button class="profile-card__button button--gray js-message-close">
+            Cancel
+          </button>
+        </div>
+      </form>
+
+      <div class="profile-card__overlay js-message-close"></div>
+    </div>
+
+  </div>
+
+</div>
+
+    </body>
+</html>

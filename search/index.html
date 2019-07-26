@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<script src="https://code.angularjs.org/1.2.13/angular.js"></script>
+<script src="app.js"></script>
+</head>
+<body>
+<div ng-app="searchApp" ng-controller="searchController" style="width:500px">
+<div>
+<h2>Search</h2>
+</div>
+<div style="margin:20px">
+
+</div>
+<div class="bar">
+<input type="text" ng-model="searchString" 
+placeholder="Enter your search terms" />
+</div>
+<ul>
+<li ng-repeat="q in questions | searchFor:searchString | orderBy:'-date'">
+<p>{{q.date}} : {{q.name}}</p>
+</li>
+</ul>
+</div>
+</body>
+</html>
